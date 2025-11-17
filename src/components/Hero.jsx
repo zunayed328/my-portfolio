@@ -5,14 +5,14 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="h-screen flex flex-col md:flex-row items-center justify-center bg-gray-100 text-center md:text-left px-5"
+      className="h-screen flex flex-col md:flex-row items-center justify-center bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 text-white px-5"
     >
       {/* Left side: text */}
-      <div className="md:w-1/2 space-y-4">
+      <div className="md:w-1/2 space-y-4 text-center md:text-left">
         <h1 className="text-4xl md:text-5xl font-bold">
           Welcome to My Portfolio
         </h1>
-        <p className="text-lg text-gray-700">
+        <p className="text-lg md:text-xl">
           I am a Web Developer & AI Enthusiast.
         </p>
       </div>

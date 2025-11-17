@@ -5,18 +5,18 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 px-5 bg-white text-center">
       <h2 className="text-3xl font-bold mb-5">Contact Me</h2>
-      <p className="mb-4">Email: <a href="mailto:mdzunayed2002@gmail.com">mdzunayed2002@gmail.com</a></p>
-      <div className="flex justify-center gap-6 text-2xl">
+      <div className="flex justify-center space-x-6 text-2xl text-gray-700">
         <a href="https://www.linkedin.com/in/mohammad-zunayed-7793122a3/" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin />
+          <FaLinkedin className="hover:text-blue-600 transition" />
         </a>
         <a href="https://github.com/zunayed328" target="_blank" rel="noopener noreferrer">
-          <FaGithub />
+          <FaGithub className="hover:text-black transition" />
         </a>
         <a href="mailto:mdzunayed2002@gmail.com">
-          <FaEnvelope />
+          <FaEnvelope className="hover:text-red-600 transition" />
         </a>
       </div>
+      <p className="mt-4 text-gray-600">Email: mdzunayed2002@gmail.com</p>
     </section>
   );
 }
